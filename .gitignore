@@ -1,0 +1,13 @@
+# avoid tracking virtual environment
+.venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+models/
+reports/
+
+# dataset often large, not needed to track
+data/
+
+# secrets (just in case)
+.env
